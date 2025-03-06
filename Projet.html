@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><title>Mon Portfolio</title>
+</title>
+</head>
+<body>
+     <!-- Barre de navigation -->
+     <nav>
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#work">Travail</a></li>
+            <li><a href="#resume">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="home">
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p>Ceci est mon exemple de page de portfolio utilisant uniquement HTML.</p>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Je suis une développeuse passionnée par la création de sites web innovants et fonctionnels.</p>
+       <video src="video.mp4" width="150"height="100"type="video/mp4" controls></video>
+    </section>
+
+    <!-- Section Travail -->
+    <section id="work">
+        <h2>Mon Travail</h2>
+        <p>Voici quelques-uns de mes projets récents.</p>
+        <ul>
+            <li>Projet 1 (Porfolio professionnel)</li>
+            <li>Projet 2</li>
+            <li>Projet 3</li>
+        </ul>
+    </section>
+
+    <!-- Section CV -->
+    <section id="resume">
+        <h2>Mon CV</h2>
+        <p>Voici un aperçu de mon parcours professionnel.</p>
+        <table>
+            <tr>
+                <th>Année</th>
+                <th>Poste</th>
+                <th>Entreprise</th>
+            </tr>
+            <tr>
+                <td>2024-2025</td>
+                <td>Développeuse Web</td>
+                <td>Entreprise A</td>
+            </tr>
+            <tr>
+                <td>2025-Présent</td>
+                <td>Déveppeuse full-stack</td>
+                <td>Entreprise B</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="/submit_form" method="post">
+            <label for="name">Nom:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>© 2025 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
