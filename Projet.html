@@ -8,6 +8,7 @@
 </head>
 <body>
      <!-- Barre de navigation -->
+      <header>
      <nav>
         <ul>
             <li><a href="#home">Accueil</a></li>
@@ -17,8 +18,9 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-
-    <!-- Section Accueil -->
+</header>
+      <body>
+     <!-- Section Accueil -->
     <section id="home">
         <h1>Bienvenue sur mon Portfolio</h1>
         <p>Ceci est mon exemple de page de portfolio utilisant uniquement HTML.</p>
@@ -70,14 +72,15 @@
         <h2>Contactez-moi</h2>
         <form action="/submit_form" method="post">
             <label for="name">Nom:</label><br>
-            <input type="text" id="name" name="name"><br>
+            <input type="text" id="name" name="name" placeholder="Saisir votre nom ici"><br>
             <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
+            <input type="email" id="email" name="email" placeholder="Saisir votre mail ici"><br>
             <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Saisir votre message ici"></textarea><br>
             <input type="submit" value="Envoyer">
         </form>
     </section>
+</body>
 
     <!-- Pied de page -->
     <footer>
